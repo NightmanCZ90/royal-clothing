@@ -1,6 +1,7 @@
 import React from 'react';
 
 import SignIn from '../../components/sign-in/sign-in.component';
+import SignUp from '../../components/sign-up/sign-up.component';
 
 import './account.styles.scss';
 
@@ -8,6 +9,7 @@ const AccountPage = () => {
   return (
     <div className='account'>
       <SignIn />
+      <SignUp />
     </div>
   )
 };
