@@ -4,8 +4,13 @@
   height: 80px;
   margin-bottom: 15px;
 
-  img {
-    width: 22%;
+  .item-image {
+    width: 30%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
   }
 
   .item-details {
