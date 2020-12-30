@@ -13,6 +13,6 @@ export const selectCollectionsForPreview = createSelector(
 )
 
 export const selectCollection = collectionUrlParam => createSelector( // could have been easily done with RouteName
-  [selectCollectionsForPreview],
+  [selectCollections],
   collections => collections[collectionUrlParam]
 )
